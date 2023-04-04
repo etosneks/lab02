@@ -38,7 +38,7 @@ git push -u origin master<br />
 1) В локальной копии репозитория создам ветку patch1 и перейду в неё: <br />
 git checkout -b patch1
 2) Отредактирую файл hello_world.cpp: 
-```
+	```
 	#include <iostream>
 	int main() {
 	  string name;
@@ -55,7 +55,7 @@ git checkout -b patch1
   4) Проверю, что ветка доступна в удаленном репозитории
   5) Создам PR patch1 -> master
 6. В локальном репозитории, находясь в ветке patch1, отредактирую файл hello_world.cpp:
-```
+	```
 	#include <iostream>
 	using  namespace std;
 	int main() {
