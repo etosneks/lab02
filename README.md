@@ -19,7 +19,7 @@ touch hello_world.cpp #include <iostream><br />
   it commit -m "added hello_world.cpp"
   6) Отредактирую файл hello_world.cpp:
 	```
-  #include <iostream>
+	#include <iostream>
 	using namespace std;
 	int main() {
 	  string name;
