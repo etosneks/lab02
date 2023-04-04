@@ -16,7 +16,7 @@ touch hello_world.cpp #include <iostream><br />
   4) Добавляю этот файл в локальную копию репозитория: <br />
   git add h*
   5) Закомичу изменения: <br />
-  it commit -m "added hello_world.cpp"
+  git commit -m "added hello_world.cpp"
   6) Отредактирую файл hello_world.cpp:
 	```
 	#include <iostream>
@@ -28,7 +28,6 @@ touch hello_world.cpp #include <iostream><br />
 	  cout << "Hello World from " << name << endl;
 	  return 0;
 	}
-
 	```
 7) Закоммичу новую версию программы: <br />
 git commit -am "added name"
