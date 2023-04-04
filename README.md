@@ -3,19 +3,22 @@
 1) Создаю удаленный репозиторий <br />
 2) Создаю локальный репозиторий <br />
 3) Создаю файл  <br />
-Реализую программу:
-touch hello_world.cpp #include <iostream>
+touch hello_world.cpp #include <iostream><br />
+	Реализую программу:
+	```
 	using namespace std;
 	int main() 
 	{
 	  cout << "Hello, World" << endl;
 	  return 0;
 	}
+	```
   4) Добавляю этот файл в локальную копию репозитория: <br />
   git add h*
   5) Закомичу изменения: <br />
   it commit -m "added hello_world.cpp"
   6) Отредактирую файл hello_world.cpp:
+	```
   #include <iostream>
 	using namespace std;
 	int main() {
@@ -25,6 +28,7 @@ touch hello_world.cpp #include <iostream>
 	  cout << "Hello World from " << name << endl;
 	  return 0;
 	}
+	```
 7) Закоммичу новую версию программы: <br />
 git commit -am "added name"
 8) Запушу изменения в удалённый репозиторий: <br />
@@ -34,8 +38,8 @@ git push -u origin master<br />
 1) В локальной копии репозитория создам ветку patch1 и перейду в неё: <br />
 git checkout -b patch1
 2) Отредактирую файл hello_world.cpp:
-#include <iostream>
-
+       ```
+	#include <iostream>
 	int main() {
 	  string name;
 	  cout << "Enter your name"; 
@@ -43,6 +47,7 @@ git checkout -b patch1
 	  cout << "Hello World from " << name << endl;
 	  return 0;
 	}
+	```
   3) Закоммичу изменения: <br />
   $ git commit -am "removed using namespace std line" <br />
 	Запишу изменения в удаленный репозиторий:<br />
@@ -50,7 +55,7 @@ git checkout -b patch1
   4) Проверю, что ветка доступна в удаленном репозитории
   5) Создам PR patch1 -> master
 6. В локальном репозитории, находясь в ветке patch1, отредактирую файл hello_world.cpp:
-
+```
 	#include <iostream>
 	using  namespace std;
 	int main() {
@@ -61,7 +66,7 @@ git checkout -b patch1
 	  return 0;
 	}
 	// комментарий:) 
-
+```
 7. Закомичу изменения:<br />
 	$ git commit -am "added comment"<br />
 	Запишу изменения в удаленный репозиторий:<br />
