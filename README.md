@@ -28,7 +28,7 @@ touch hello_world.cpp #include <iostream>
 7) Закоммичу новую версию программы: <br />
 git commit -am "added name"
 8) Запушу изменения в удалённый репозиторий: <br />
-git push -u origin master
+git push -u origin master<br />
 9)Проверю, что история коммитов доступна в удалённом репозитории
 ## Часть 2
 1) В локальной копии репозитория создам ветку patch1 и перейду в неё: <br />
