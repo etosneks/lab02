@@ -37,8 +37,8 @@ git push -u origin master<br />
 ## Часть 2
 1) В локальной копии репозитория создам ветку patch1 и перейду в неё: <br />
 git checkout -b patch1
-2) Отредактирую файл hello_world.cpp:
-       ```
+2) Отредактирую файл hello_world.cpp: 
+```
 	#include <iostream>
 	int main() {
 	  string name;
