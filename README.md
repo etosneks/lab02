@@ -28,6 +28,7 @@ touch hello_world.cpp #include <iostream><br />
 	  cout << "Hello World from " << name << endl;
 	  return 0;
 	}
+
 	```
 7) Закоммичу новую версию программы: <br />
 git commit -am "added name"
@@ -88,7 +89,7 @@ git checkout -b patch1
 2. Скачаю пакет **clang-format**:<br />
 	sudo apt install clang-format<br />
 	Изменю *code style*:<br />
-	clang-format -style=Mozilla /home/alina/lab2/hello_world.cpp
+	clang-format -style=Mozilla /home/etosneks/lab02/hello_world.cpp
 3. Закомичу изменения:<br />
 	$ git commit -am "changed code style"<br />
 	Запишу изменения в удаленный репозиторий:<br />
