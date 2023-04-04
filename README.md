@@ -17,7 +17,7 @@ touch hello_world.cpp #include <iostream><br />
   git add h*
   5) Закомичу изменения: <br />
   git commit -m "added hello_world.cpp"
-  6) Отредактирую файл hello_world.cpp:
+  6) Отредактирую файл hello_world.cpp:<br />
 	```
 	#include <iostream>
 	using namespace std;
