@@ -66,7 +66,7 @@ git checkout -b patch1
 	  return 0;
 	}
 	// комментарий:) 
-```
+	```
 7. Закомичу изменения:<br />
 	$ git commit -am "added comment"<br />
 	Запишу изменения в удаленный репозиторий:<br />
