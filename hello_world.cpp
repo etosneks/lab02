@@ -7,5 +7,5 @@ int main() {
   cout << "Hello World from " << name << endl;
   return 0;
 }
+
 //комментарий!!!
-//комментарий:)
