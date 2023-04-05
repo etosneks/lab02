@@ -3,9 +3,10 @@
 1) Создаю удаленный репозиторий <br />
 2) Создаю локальный репозиторий <br />
 3) Создаю файл  <br />
-touch hello_world.cpp #include <iostream><br />
+touch hello_world.cpp <br />
 	Реализую программу:
 	```
+	#include <iostream>
 	using namespace std;
 	int main() 
 	{
